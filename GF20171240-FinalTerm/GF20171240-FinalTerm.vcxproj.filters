@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{4c3bd977-9ef0-44a2-8530-8aeb81a4d374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{85673288-c214-4d30-8db5-28a2f364d5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{c770ea34-e060-42c9-a2dd-e702f5356e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\State">
+      <UniqueIdentifier>{c066dbc5-f3fe-4476-8d40-d0974c199071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{39731463-39b0-4133-8557-d10a7515ed3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{d4a79348-7b1a-472e-add2-ee908334ac25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\State">
+      <UniqueIdentifier>{a8eafbcb-68a1-427f-8aef-29cb213464e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLGameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MapNode.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndState.cpp">
+      <Filter>소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackHole.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderParams.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLGameObject.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapNode.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollisionable.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndState.h">
+      <Filter>헤더 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPack.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackHole.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
